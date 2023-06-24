@@ -1,0 +1,140 @@
+body {
+    margin: 0;
+    padding: 0;
+  }
+  
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .logo img {
+    width: 128px;
+    height: 40px;
+    margin-left: 20px;
+    margin-bottom: -15px;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin-right: auto;
+    font-size: medium;
+  }
+  
+  nav ul li {
+    margin-left: 30px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: #333;
+    font-family: 'Work Sans', sans-serif;
+  }
+  
+  .social-media img {
+    width: 30px;
+    height: 30px;
+    margin-left: 20px;
+  }
+  
+  .background-image {
+    background-image: url('image/images/CAP2-min.png');
+    background-size: cover;
+    background-position: center;
+    height: 550px;
+   
+  }
+  
+  .black-background {
+    background-color: #000;
+    color: #fff;
+    padding: 50px;
+    text-align: center;
+  }
+  
+  .black-background .content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .bac {
+  margin-right: -700px;
+  }
+  
+  .form-row {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    margin-bottom: 40px;
+  }
+  
+  .form-col {
+    flex-basis: -80%;
+    margin-bottom: 25px;
+    padding: 10px 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    height: 90%;
+    width: 50%;
+  }
+  
+  input[type="text"],
+  input[type="email"] {
+    width: 130%;
+    height: 15px;
+    padding: 10px;
+    margin-bottom: 5px;
+    height: 8vh;
+  }
+  
+  input[type="submit"] {
+    margin-top: -10px;
+    padding: 20px 40px;
+    background-color: #fff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 16px;
+    margin-right: -70px;
+  }
+
+
+  
+  .bic {
+   margin-top: -100px;
+  }
+  
+  .email-col {
+    flex-basis: 50%;
+    height: 5px;
+    margin-top: -77px;
+    margin-left: -15px;
+  }
+  
+  .pa {
+    margin-right: -80px;
+    margin-bottom: -10px;
+    margin-top: 90px;
+    font-size: medium;
+    font-family: "Gill Sans Extrabold", sans-serif;
+    font-weight: 520;
+    font-style: normal;
+    letter-spacing: 0em;
+    text-transform: none;
+  }
+  .element1 {
+    margin-right: 25px; /* Espace négatif à droite de l'élément 1 */
+    
+  }
+  
+  .element2 {
+    margin-left: 25px; /* Espace négatif à gauche de l'élément 2 */
+  }
+  
